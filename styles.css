@@ -1,0 +1,26 @@
+#details-btn {
+    background-color: #513be4;
+    color: white;
+    width: 8rem;  /* w-32 equals 8rem */
+    padding: 0.25rem 0.75rem;  /* px-3 py-1 */
+    font-size: 0.875rem;  /* text-sm */
+    border-radius: 0.25rem;  /* rounded */
+    transition: background-color 0.3s ease;
+}
+
+#details-btn:hover {
+    background-color: #4432c4;
+}
+
+.topic-btn {
+    background-color: white;
+    color: #513be4;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border-color: #513be4;
+    border-width: 2px;
+}
+
+.topic-btn:hover {
+    background-color: lightblue;
+}
