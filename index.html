@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-white min-h-screen">
+    <div class="container mx-auto px-4 py-8">
+        <!-- Topic Selection Screen -->
+        <div id="topic-selection" class="space-y-4">
+            <div class="text-center mb-8">
+                <img src="images/koodikologo.png" alt="Koodiko Logo" class="mx-auto h-12">
+            </div>
+            <div class="max-w-2xl mx-auto px-4 bg-white rounded-lg">
+                <h1 class="text-xl text-gray-800 font-bold pt-2 text-center mb-2">Quizübersicht</h1>
+                <p class="text-center mb-8 text-gray-700 pb-2">Hier können Sie Ihr Wissen erweitern und unter Beweis stellen.</p>
+            </div>
+            <div class="flex flex-col space-y-4 max-w-md mx-auto">
+                <button class="topic-btn bg-white text-[#513be4] p-4 rounded-lg hover:bg-gray-50 border-2 border-[#513be4]" data-topic="topic1">Der alte Markt</button>
+                <button class="topic-btn bg-white text-[#513be4] p-4 rounded-lg hover:bg-gray-50 border-2 border-[#513be4]" data-topic="topic2">Beteiligung in Wuppertal</button>
+                <button class="topic-btn bg-white text-[#513be4] p-4 rounded-lg hover:bg-gray-50 border-2 border-[#513be4]" data-topic="topic3">Klimaschutz und Beteiligung</button>
+            </div>
+            <div class="max-w-2xl mx-auto px-4 pb-4 bg-white rounded-lg">
+                <div id="total-score" class="text-l font-bold text-gray-700 text-center pt-2 mt-8 mb-4">Gesamtpunktzahl: 0/200</div>
+                <div class="text-center space-y-2">
+                    <div>
+                        <button id="details-btn">
+                            Details
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+            <div class="flex justify-center">
+                <button id="reset-btn" class="text-gray-400 w-40 px-3 py-1 text-sm rounded">
+                    Punktestand zurücksetzen
+                </button>
+            </div>
+        </div>
+
+        <!-- Add modal for details -->
+        <div id="details-modal" class="hidden fixed inset-0 bg-gray-600 bg-opacity-50 flex items-center justify-center">
+            <div class="bg-white p-6 rounded-lg shadow-lg max-w-sm w-full">
+                <h2 class="text-xl font-bold mb-4">Punkteübersicht</h2>
+                <div id="topic-scores" class="space-y-2">
+                    <!-- Scores will be inserted here -->
+                </div>
+                <p class="text-sm font-italic mt-2">Um mehr Punkte zu erhalten, können Sie jedes Quiz mehrmals wiederholen.</p>
+                <button id="close-modal-btn" class="mt-4 bg-gray-500 text-white px-3 py-1 text-sm rounded hover:bg-gray-200">
+                    Schließen
+                </button>
+            </div>
+        </div>
+
+        <!-- Quiz Screen -->
+        <div id="quiz-screen" class="hidden space-y-4">
+            <div class="flex justify-between items-center mb-4">
+                <div id="question-counter" class="text-xl">Frage 1/5</div>
+                <div id="points" class="text-xl">Punkte: 0</div>
+            </div>
+            <!-- Add abort button -->
+            <div class="text-right mb-4">
+                <button id="abort-btn" class="bg-gray-500 text-white w-24 px-2 py-1 text-xs rounded hover:bg-gray-200">
+                    Abbrechen
+                </button>
+            </div>
+            <!-- Quiz progress bar -->
+            <div class="w-full bg-gray-200 rounded-full h-4 mb-4 border-2 border-violet-400 flex items-center p-0.5">
+                <div id="progress-bar" class="h-2 rounded-full" style="width: 0%"></div>
+            </div>
+            <div id="question-container" class="space-y-4">
+                <div id="question" class="text-xl font-semibold mb-4"></div>
+                <div class="flex flex-col space-y-4 max-w-md mx-auto">
+                    <button id="answer-1" class="answer-btn bg-white text-[#513be4] p-4 rounded-lg hover:bg-gray-50 border-2 border-[#513be4]">Option 1</button>
+                    <button id="answer-2" class="answer-btn bg-white text-[#513be4] p-4 rounded-lg hover:bg-gray-50 border-2 border-[#513be4]">Option 2</button>
+                    <button id="answer-3" class="answer-btn bg-white text-[#513be4] p-4 rounded-lg hover:bg-gray-50 border-2 border-[#513be4]">Option 3</button>
+                    <button id="answer-4" class="answer-btn bg-white text-[#513be4] p-4 rounded-lg hover:bg-gray-50 border-2 border-[#513be4]">Option 4</button>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <button id="next-btn" class="bg-[#513be4] text-white w-32 px-3 py-1 text-sm rounded hover:bg-[#4432c7]">
+                Weiter
+                </button>
+            </div>
+        </div>
+
+        <!-- Results Screen -->
+        <div id="results-screen" class="hidden space-y-4 text-center">
+            <h2 class="text-2xl font-bold">Zusammenfassung</h2>
+            <!-- Results progress bar -->
+            <div class="w-full bg-gray-100 rounded-full h-4 mb-4 border-2 border-violet-400 flex items-center p-0.5">
+                <div id="results-progress-bar" class="h-2 rounded-full" style="width: 0%"></div>
+            </div>
+            <p id="total-points" class="text-xl"></p>
+            <p id="percentage" class="text-xl"></p>
+            <p id="feedback" class="text-xl font-bold"></p>
+            <button id="restart-btn" class="bg-violet-500 text-white p-4 rounded-full hover:bg-violet-600">Zurück zur Themenauswahl</button>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html> 
