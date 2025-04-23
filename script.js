@@ -1,7 +1,7 @@
 const quizData = {
     topic1: [
         {
-            question: "Was ist das Hauptziel des Beteiligungsverfahrens für den Alter Markt in Barmen?",
+            question: "Was ist das Hauptziel des Beteiligungsverfahrens für den Alten Markt in Barmen?",
             options: ["Die Bürger*innen zur Teilnahme an Wahlen motivieren", "Ein Konzept für die Umgestaltung zu entwickeln, das die Bedürfnisse der Menschen vor Ort berücksichtigt", "Einen neuen Parkplatz in der Innenstadt zu schaffen", "Die Anzahl der Besucherinnen des Platzes zu reduzieren"],
             correctAnswer: 1,
             explanation: "Das Beteiligungsverfahren soll die Verwaltung und das Planungsbüro dabei unterstützen, ein Konzept für die Umgestaltung zu erarbeiten und umzusetzen, welches die Bedingungen vor Ort und die Bedarfe und Präferenzen der Menschen berücksichtigt."
