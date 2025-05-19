@@ -24,14 +24,16 @@
                 <button class="topic-btn bg-white text-[#513be4] p-4 rounded-lg hover:bg-gray-50 border-2 border-[#513be4]" data-topic="topic3">Klimaschutz und Beteiligung</button>
             </div>
             <div class="max-w-2xl mx-auto px-4 pb-4 bg-white rounded-lg">
-                <div id="total-score" class="text-l font-bold text-gray-700 text-center pt-2 mt-8 mb-4">Gesamtpunktzahl: 0/200</div>
+                <div id="total-score" class="text-l font-bold text-gray-700 text-center pt-2 mt-8 mb-2">Gesamtpunktzahl: 0/150</div>
                 <div class="text-center space-y-2">
                     <div>
+                        <span class="block text-sm text-gray-500 mb-4">
+                            Um mehr Punkte zu erhalten, können Sie jedes Quiz mehrmals wiederholen.
+                        </span>
                         <button id="details-btn">
                             Details
                         </button>
                     </div>
-
                 </div>
             </div>
             <div class="flex justify-center">
@@ -48,7 +50,6 @@
                 <div id="topic-scores" class="space-y-2">
                     <!-- Scores will be inserted here -->
                 </div>
-                <p class="text-sm font-italic mt-2">Um mehr Punkte zu erhalten, können Sie jedes Quiz mehrmals wiederholen.</p>
                 <button id="close-modal-btn" class="mt-4 bg-gray-500 text-white px-3 py-1 text-sm rounded hover:bg-gray-200">
                     Schließen
                 </button>
@@ -81,8 +82,8 @@
                 </div>
             </div>
             <div class="text-center mt-4">
-                <button id="next-btn" class="bg-[#513be4] text-white w-48 px-6 py-2 text-lg rounded-lg font-semibold hover:bg-[#4432c7]">
-                Weiter
+                <button id="next-btn" class="bg-[#513be4] text-white w-48 px-6 py-2 text-lg rounded-lg font-semibold hover:bg-[#4432c7] transition-all duration-150">
+                    Weiter
                 </button>
             </div>
         </div>
@@ -99,6 +100,7 @@
             <p id="feedback" class="text-xl font-bold"></p>
             <button id="restart-btn" class="bg-violet-500 text-white p-4 rounded-full hover:bg-violet-600">Zurück zur Themenauswahl</button>
         </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html> 
