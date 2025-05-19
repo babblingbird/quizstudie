@@ -1,7 +1,7 @@
 const quizData = {
     topic1: [
         {
-            question: "Was ist das Hauptziel des Beteiligungsverfahrens für den Alten Markt in Barmen?",
+            question: "Was ist das Hauptziel des Beteiligungsverfahrens für den Alter Markt in Barmen?",
             options: ["Die Bürger*innen zur Teilnahme an Wahlen motivieren", "Ein Konzept für die Umgestaltung zu entwickeln, das die Bedürfnisse der Menschen vor Ort berücksichtigt", "Einen neuen Parkplatz in der Innenstadt zu schaffen", "Die Anzahl der Besucherinnen des Platzes zu reduzieren"],
             correctAnswer: 1,
             explanation: "Das Beteiligungsverfahren soll die Verwaltung und das Planungsbüro dabei unterstützen, ein Konzept für die Umgestaltung zu erarbeiten und umzusetzen, welches die Bedingungen vor Ort und die Bedarfe und Präferenzen der Menschen berücksichtigt."
@@ -140,8 +140,8 @@ answerButtons.forEach((button, index) => {
                 btn.className = 'answer-btn bg-white text-[#513be4] p-4 rounded-lg hover:bg-gray-100 border-2 border-[#513be4]';
             });
             
-            // Highlight selected button
-            button.className = 'answer-btn bg-gray-200 text-[#513be4] p-4 rounded-lg border-2 border-[#513be4]';
+            // Highlight selected button with darker grey
+            button.className = 'answer-btn bg-gray-300 text-[#513be4] p-4 rounded-lg border-2 border-[#513be4]';
             selectedAnswer = index;
         }
     });
@@ -173,6 +173,17 @@ function startQuiz(topic) {
 
 function updateQuestion() {
     const question = currentQuestions[currentQuestionIndex];
+
+    // Add info sentence above the question
+    let infoElement = document.getElementById('info-above-question');
+    if (!infoElement) {
+        infoElement = document.createElement('div');
+        infoElement.id = 'info-above-question';
+        infoElement.className = 'text-sm text-gray-500 mb-1';
+        questionElement.parentNode.insertBefore(infoElement, questionElement);
+    }
+    infoElement.textContent = "Eine Antwort ist richtig.";
+
     questionElement.textContent = question.question;
     questionCounter.textContent = `Frage ${currentQuestionIndex + 1}/5`;
     
@@ -247,7 +258,7 @@ function nextQuestion() {
         // Display explanation
         if (question.explanation) {
             const explanationElement = document.createElement('div');
-            explanationElement.className = 'explanation-box mt-4 p-4 bg-gray-100 text-gray-800 rounded-lg';
+            explanationElement.className = 'explanation-box mt-4 p-4 bg-green-100 text-gray-800 rounded-lg';
             explanationElement.innerHTML = `<strong>Erklärung:</strong> ${question.explanation}`;
             document.getElementById('question-container').appendChild(explanationElement);
         }
