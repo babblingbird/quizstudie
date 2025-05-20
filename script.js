@@ -1,102 +1,103 @@
 const quizData = {
     topic1: [
         {
-            question: "Was ist das Hauptziel des Beteiligungsverfahrens für den Alter Markt in Barmen?",
-            options: ["Die Bürger*innen zur Teilnahme an Wahlen motivieren", "Ein Konzept für die Umgestaltung zu entwickeln, das die Bedürfnisse der Menschen vor Ort berücksichtigt", "Einen neuen Parkplatz in der Innenstadt zu schaffen", "Die Anzahl der Besucherinnen des Platzes zu reduzieren"],
+            question: "Was ist das Hauptziel des Beteiligungsverfahrens für die Schwebebahnhaltestelle Alter Markt?",
+            options: ["Die Bürger*innen zur Teilnahme an Wahlen motivieren", "Ein Konzept für die Umgestaltung zu entwickeln", "Die Kontaktdaten von Bürger*innen zu erhalten", "Die Anzahl der Besucher*innen des Platzes zu reduzieren"],
             correctAnswer: 1,
-            explanation: "Das Beteiligungsverfahren soll die Verwaltung und das Planungsbüro dabei unterstützen, ein Konzept für die Umgestaltung zu erarbeiten und umzusetzen, welches die Bedingungen vor Ort und die Bedarfe und Präferenzen der Menschen berücksichtigt."
+            explanation: "Das Beteiligungsverfahren soll die Verwaltung und das Planungsbüro dabei unterstützen, ein Konzept für die Umgestaltung zu erarbeiten und umzusetzen. Dabei sollen die Bedarfe der Menschen, die den Ort nutzen, berücksichtigt werden."
         },
         {
             question: "Welches temporäre Konzept wird vor der dauerhaften Umgestaltung getestet?",
-            options: ["Ein neuer Fahrradweg", "Ein Einkaufszentrum", "Ein Flohmarkt", "Ein Pop-Up Park"],
+            options: ["Ein neuer Fahrradweg", "Ein Wochenmarkt", "Ein Flohmarkt", "Ein Pop-Up Park (Neue Pflanzen und Sitzgelegenheiten)"],
             correctAnswer: 3,
-            explanation: "Vor der endgültigen Umgestaltung des Platzes wird ein Pop-Up Park eingerichtet. Im Rahmen dieser Maßnahme sollen verschiedene Ideen probeweise umgesetzt und getestet werden. Dazu gehört auch mehr Sitzgelegenheiten anzubieten."
+            explanation: "Vor der endgültigen Umgestaltung des Platzes wird ein Pop-Up Park eingerichtet. Dazu gehört auch für ein paar Monate neue Pflanzen in Hochbeeten und Sitzgelegenheiten aufzustellen."
         },
         {
             question: "Welche Einschränkung besteht bei der Finanzierung der Umgestaltung?",
-            options: ["Es darf kein Geld für Sitzgelegenheiten ausgegeben werden", "Es gibt keinerlei finanzielle Begrenzung", "Die Mittel dürfen nur für eine klimagerechte und barrierefreie Umgestaltung genutzt werden","Das Budget darf nur für den Bau von Spielplätzen verwendet werden"],
+            options: ["Es darf kein Geld für Sitzgelegenheiten ausgegeben werden", "Alle Ideen sind erlaubt", "Die Maßnahmen müssen klimagerecht und barrierefrei sein","Es dürfen nur Spielplätze gebaut werden"],
             correctAnswer: 2,
-            explanation: "80 % des Budgets stammen aus Städtebaufördermitteln. Diese sind an Bedingungen geknüpft. Das Geld kann nur für eine klimagerechte und barrierefreie Umgestaltung des Platzes eingesetzt werden."
+            explanation: "80 % des Budgets stammen aus Städtebaufördermitteln des Bundes. Diese sind an Bedingungen geknüpft. Dadurch sind nicht alle Ideen möglich."
         },
         {
             question: "Wie sollen Bürger*innen am Beteiligungsverfahren teilnehmen?",
-            options: ["Durch Postkarten-Aktionen, Online-Umfragen und Beteiligung vor Ort", "Durch telefonische Befragungen", "Durch Abstimmung im Rathaus", "Durch eine Bürger*innenversammlung einmal im Jahr"],
+            options: ["Durch Postkarten-Aktionen, Online-Umfragen und Beteiligung vor Ort", "Durch telefonische Befragungen", "Durch Abstimmung im Rathaus", "Durch per Brief verschickte Umfragen"],
             correctAnswer: 0,
-            explanation: "Die Beteiligung erfolgt durch Online-Befragungen, um möglichst vielen Bürger*innen eine einfache und zeitlich flexible Teilnahme zu ermöglichen. Gleichzeitig ermöglichen die anderen Formate auch Beteiligung vor Ort."
+            explanation: "Die Beteiligung erfolgt durch Online-Befragungen, um möglichst vielen Bürger*innen eine einfache und zeitlich flexible Teilnahme zu ermöglichen. Gleichzeitig ermöglichen die anderen Formate auch Beteiligung vor Ort. Per Brief verschickte Umfragen und Telefonate sind zu kosten- und zeitaufwändig."
         },
         {
             question: "Warum werden für die Evaluation des Pop-Up Parks verschiedene Zeiträume eingeplant?",
-            options: ["Weil nicht genug Personal für eine dauerhafte Beteiligung vorhanden ist", "Damit möglichst viele Touristen an der Umfrage teilnehmen können", "Um sicherzustellen, dass nur die Anwohner*innen befragt werden", "Um Veränderungen in verschiedenen Jahreszeiten zu berücksichtigen"],
+            options: ["Weil nicht genug Personal für eine dauerhafte Beteiligung vorhanden ist", "Damit möglichst viele Tourist*innen an der Umfrage teilnehmen können", "Um sicherzustellen, dass nur die Anwohner*innen befragt werden", "Um Veränderungen in verschiedenen Jahreszeiten zu berücksichtigen"],
             correctAnswer: 3,
-            explanation: "Die Evaluation zu verschiedenen Jahreszeiten ist wichtig, um zu verstehen, wie der Platz das ganze Jahr über genutzt wird und welche jahreszeitabhängigen Bedürfnisse berücksichtigt werden müssen."
+            explanation: "Die Evaluation zu verschiedenen Jahreszeiten ist wichtig, um zu verstehen, wie der Platz das ganze Jahr über genutzt wird, welche jahreszeitabhängigen Bedürfnisse berücksichtigt werden müssen und wie sich die Pflanzen entwickeln."
         },   
 
     ],
     topic2: [
         {
-            question: "Was ist der Hauptunterschied zwischen formeller und informeller Bürgerbeteiligung?",
-            options: ["Formelle Bürgerbeteiligung ist gesetzlich vorgeschrieben, während informelle Bürgerbeteiligung freiwillig ist.", "Nur bei informeller Bürgerbeteiligung können Bürgerinnen selbst über politische Entscheidungen abstimmen.", "Formelle Bürgerbeteiligung findet nur online statt, während informelle Bürgerbeteiligung nur in Präsenz erfolgt.", "Informelle Bürgerbeteiligung ist nur für Einwohnerinnen der Stadt zugänglich, während formelle Bürgerbeteiligung für alle offen ist."],
+            question: "Was ist eines der Hauptmerkmale der Bürgerbeteiligung?",
+            options: ["Bürger*innen werden nach ihren Meinungen zu Plänen und Bedrüfnissen gefragt", "Bürger*innen müssen schriftlich zu Beteiligungsverfahren eingeladen werden", "Bürgerbeteiligung ist nur für die Einwohner*innen der Stadt zugänglich", "Bürger*innen können verbindlich über politische Entscheidungen abstimmen"],
             correctAnswer: 0,
-            explanation: "Formelle Bürgerbeteiligung ist in Gesetzen geregelt (z. B. Bauleitplanung, Einwohneranträge, Bürgerentscheide) und muss von politischen Gremien beachtet werden. Informelle Bürgerbeteiligung ist nicht gesetzlich vorgeschrieben, sondern dient dazu, Bürger*innen freiwillig in politische Prozesse einzubeziehen. Sie bietet mehr Flexibilität und ist oftmals dialogorientiert."
+            explanation: "Bürgerbeteiligung ist in Gesetzen geregelt und muss von der Stadtverwaltung beachtet werden. Die Ideen der Bürger*innen kann zu der Anpassung von Entscheidungen führen. Im Gegensatz zum Volksentscheid ist es keine Pflicht die Ideen umzusetzen."
         },
         {
-            question: "Wovon soll die Beteiligungskultur in Wuppertal geprägt sein?",
+            question: "Was ist besonders wichtig für die Beteiligungskultur in Wuppertal?",
             options: ["Wettbewerbe zwischen Bürger*innen für die beste Idee", "Frühzeitige Einbindung von Bürger*innen und Gleichberechtigung verschiedener Gruppen", "Bevorzugung bestimmter Gruppen", "Schnelle Umsetzung von Bauentwürfen"],
             correctAnswer: 1,
-            explanation: "Die Leitlinien für gute Bürgerbeteiligung in Wuppertal legen Wert auf eine konstruktive und faire Bürgerbeteiligung. Zu den Kernwerten gehören Zusammenarbeit, Kommunikation, Verbindlichkeit, Transparenz, Frühzeitigkeit und Inklusion. Diese Prinzipien sollen sicherstellen, dass möglichst viele Bürger*innen sich einbringen können und ernst genommen werden."
+            explanation: "Die Leitlinien für gute Bürgerbeteiligung in Wuppertal legen Wert auf eine faire Bürgerbeteiligung. Zu den Kernwerten gehören Zusammenarbeit, Kommunikation, Transparenz, Frühzeitigkeit und Inklusion. Diese Prinzipien sollen sicherstellen, dass möglichst viele Bürger*innen sich einbringen können und ernst genommen werden."
+        },
+        {
+            question: "Wer hat die Leitlinien für Bürgerbeteiligung entwickelt??",
+            options: ["Ein Team aus Stadtplaner*innen", "Eine Arbeitsgruppe aus Bürger*innen, Politiker*innen und Verwaltungsmitarbeiter*innen", "Der Oberbürgermeister", "Eine externe Beratungsfirma"],
+            correctAnswer: 1,
+            explanation: "Bürger*innen wurden in die Entwicklung der Leitlinien eingebungen. Die erste Bürgerwerkstatt dazu fand 2016 statt, die Ergebnisse wurden in einer zweiten Bürgerwerkstatt 2017 überarbeitet und verabschiedet."
         },
         {
             question: "Welche zentrale Aufgabe haben die Leitlinien für Bürgerbeteiligung in Wuppertal?",
-            options: ["Sie ersetzen die Entscheidungsbefugnis von Rat und Verwaltung.", "Sie verpflichten alle Bürger*innen zur Teilnahme an Beteiligungsverfahren.", "Sie regeln ausschließlich formelle Bürgerbeteiligungsverfahren.", "Sie geben Orientierung für die Einbeziehung der Bürgerinnen in kommunale Vorhaben."],
+            options: ["Sie ersetzen die Entscheidungsbefugnis von Rat und Verwaltung.", "Sie verpflichten alle Bürger*innen zur Teilnahme an Beteiligungsverfahren.", "Sie regeln ausschließlich Verfahren für die Umgestaltung von Flächen.", "Sie geben Orientierung für die Einbeziehung der Bürgerinnen in kommunale Vorhaben."],
             correctAnswer: 3,
-            explanation: "Die Leitlinien dienen als Rahmen für Bürgerbeteiligungsprozesse in Wuppertal. Sie sollen Einwohnerinnen, Politik und Verwaltung Orientierung geben, wie Beteiligungsverfahren gestaltet werden sollen. Dabei ersetzen sie nicht die Entscheidungsbefugnisse von Rat und Verwaltung, sondern ergänzen diese durch zusätzliches Wissen, Erfahrung und Engagement der Bürgerinnen."
+            explanation: "Die Leitlinien dienen als Rahmen für Bürgerbeteiligungsprozesse in Wuppertal. Sie sollen Einwohner*innen, Politik und Verwaltung Orientierung geben, wie Beteiligungsverfahren gestaltet werden sollen."
         },
         {
-            question: "Wer hat die Leitlinien für Bürgerbeteiligung in Wuppertal entwickelt?",
-            options: ["Nur die Stadtverwaltung", "Eine Arbeitsgruppe aus Bürger*innen, Politiker*innen und Verwaltungsmitarbeiter*innen", "Der Oberbürgermeister allein", "Ein externes Beratungsunternehmen"],
+            question: "Welche Gruppe hat die Hauptaufgabe die Leitlinien zu prüfen und Verbesserungsvorschläge zu machen?",
+            options: ["Der Beirat (eine Gruppe aus Bürger*innen, Politiker*innen und Verwaltungsmitarbeiter*innen)", "Die Stadtplaner*innen in der Verwaltung", "Der Oberbürgermeister", "Gewählte Lokalpolitiker*innen"],
             correctAnswer: 1,
-            explanation: "Die Leitlinien wurden in einem partizipativen Prozess von einer Arbeitsgruppe entwickelt, die sich aus Bürger*innen, Politiker*innen und Verwaltungsmitarbeiter*innen zusammensetzte. Dies gewährleistet, dass verschiedene Perspektiven berücksichtigt wurden."
-        },
-        {
-            question: "Welche Aufgabe hat der Beirat für Bürgerbeteiligung in Wuppertal?",
-            options: ["Er überprüft, ob sich Politik und Verwaltung an die Leitlinien für Bürgerbeteiligung halten.", "Er entscheidet über alle neuen Bauprojekte in Wuppertal.", "Er organisiert Wahlen für den Stadtrat.", "Er verwaltet das Budget der Stadt."],
-            correctAnswer: 0,
-            explanation: "Der Beirat für Bürgerbeteiligung setzt sich aus Bürgerinnen, Politikerinnen und Verwaltungsmitarbeiter*innen zusammen. Seine Hauptaufgabe ist es, die Einhaltung der Leitlinien zu prüfen und Vorschläge zur Verbesserung der Bürgerbeteiligung zu machen."
+            explanation: "Der Beirat für Bürgerbeteiligung setzt sich aus Bürger*innen, Politiker*innen und Verwaltungsmitarbeiter*innen zusammen. Seine Hauptaufgabe ist es, die Einhaltung der Leitlinien zu prüfen und Vorschläge für Verbesserungen zu machen."
         },
     ],
     topic3: [
         {
             question: "Warum werden Pop-Up Parks eingerichtet?",
-            options: ["Um neue Parkplätze für die Innenstadt zu schaffen", "Um Maßnahmen zur Anpassung an den Klimawandel zu erproben", "Um den Platz als Festivalgelände zu nutzen", "Um ein Einkaufszentrum zu bauen"],
+            options: ["Um neue Parkplatzkonzepte zu testen", "Um Maßnahmen zur Anpassung an den Klimawandel zu erproben", "Um die Nutzung als Festivalgelände zu überprüfen", "Um die Veranstaltung von Wochenmärkten zu ermöglichen"],
             correctAnswer: 1 ,
             explanation: "Pop-Up Parks dienen als Experimentier- und Lernort, um verschiedene Lösungen für Klimaanpassung wie Begrünung und Flächenentsiegelung zu testen. Die gewonnenen Erkenntnisse fließen in die langfristige Planung der Fläche ein."
         },
         {
             question: "Welche klimatischen Probleme gibt es besonders in den Tallagen von Wuppertal? Es gibt...",
-            options: ["Zu viele Grünflächen, die zu starker Abkühlung führen", "Zu viel Regen, der durch die gut durchlässigen Böden sofort abfließt", "Starke Winde aufgrund des Klimawandels", "Hohe Temperaturen durch dunkle, asphaltierte Flächen und fehlende Regenwasseraufnahme"],
+            options: ["Zu viele Grünflächen, die zu starker Abkühlung führen", "Zu viel Regen, der durch die gut durchlässigen Böden sofort abfließt", "Starke Erdbeben aufgrund des Klimawandels", "Hohe Temperaturen durch dunkle, asphaltierte Flächen und fehlende Regenwasseraufnahme"],
             correctAnswer: 3,
-            explanation: "In den Tallagen von Wuppertal gibt es viele dunkle, versiegelte Flächen (z. B. Asphalt, Pflastersteine), die sich im Sommer stark aufheizen. Zudem kann Regenwasser nicht richtig versickern, was bei Starkregen zu Überschwemmungen führt."
+            explanation: "In den Tallagen von Wuppertal gibt es viele dunkle, versiegelte Flächen (z. B. Asphalt, Pflastersteine), die sich im Sommer stark aufheizen. Regenwasser kann dadurch nicht richtig versickern, was bei Starkregen zu Überschwemmungen führt."
         },
         {
-            question: "Warum ist es sinnvoll, versiegelte Flächen durch Materialien wie Holzschnitzel oder Gras zu ersetzen?",
-            options: ["Weil versiegelte Flächen grundsätzlich kühler sind als begrünte Flächen", "Weil Holzschnitzel und Gras das Wachstum von Unkraut in der Umgebung verhindern", "Weil Holzschnitzel und Gras weniger Hitze speichern als Stein oder Beton und besser Regenwasser aufnehmen können", "Weil Steinplatten und Beton CO2 aus der Luft filtern"],
+            question: "Warum sind Holzschnitzel oder Gras auf Flächen statt Asphalt oder Beton sinnvoll?",
+            options: ["Weil versiegelte Flächen grundsätzlich kühler sind als begrünte Flächen", "Weil Holzschnitzel und Gras das Wachstum von Unkraut in der Umgebung verhindern", "Weil Holzschnitzel und Gras weniger Hitze speichern und besser Regenwasser aufnehmen können", "Weil Steinplatten und Beton die Luft filtern"],
             correctAnswer: 2,
-            explanation: "Versiegelte Flächen wie Beton und Steinplatten heizen sich in der Sonne stark auf und speichern die Wärme, wodurch es in Städten im Sommer besonders heiß wird. Außerdem können sie kaum Wasser aufnehmen, was bei Starkregen zu Überschwemmungen führt. Materialien wie Holzschnitzel oder Gras reduzieren die Hitzespeicherung und verbessern die Versickerung von Regenwasser, wodurch das Stadtklima angenehmer wird. Messungen im PopUp-Park Barmen haben ergeben, dass bis zu 20 Grad Temperaturunterschied bei Sonnenbestrahlung entstehen können."
+            explanation: "Versiegelte Flächen wie Beton und Steinplatten heizen sich in der Sonne stark auf und speichern die Wärme, wodurch es im Sommer besonders heiß wird. Außerdem können sie kaum Wasser aufnehmen, was bei Starkregen zu Überschwemmungen führt. Materialien wie Holzschnitzel oder Gras reduzieren die Hitzespeicherung und verbessern die Versickerung von Regenwasser. Messungen im PopUp-Park Barmen haben ergeben, dass bis zu 20 Grad Temperaturunterschied bei Sonnenbestrahlung entstehen können."
         },
         {
             question: "Wieso sollten Bürger*innen in die Umsetzung von Klimaschutzmaßnahmen einbezogen werden?",
-            options: ["Weil Bürger*innen durch ihr Engagement dazu beitragen können, dass Klimaschutzmaßnahmen besser an die Bedürfnisse der Stadtgesellschaft angepasst werden", "Weil Bürger*innen durch ihre Beteiligung die Verwaltung entlasten und weniger staatliche Investitionen nötig sind", "Weil Klimaschutz ausschließlich eine private Aufgabe ist und nicht von der Stadtverwaltung gesteuert werden sollte", "Weil es gesetzlich Pflicht ist Bürger*innen einzubeziehen, obwohl lokale Maßnahmen keinen Einfluss auf Klimaschutz haben"],
+            options: ["Weil die Klimaschutzmaßnahmen dadurch besser an die Bedürfnisse der Stadtgesellschaft angepasst werden", "Weil Bürger*innen durch ihre Beteiligung die Verwaltung entlasten und weniger staatliche Investitionen nötig sind", "Weil Klimaschutz ausschließlich eine private Aufgabe ist und nicht von der Stadtverwaltung gesteuert werden sollte", "Weil es gesetzlich verpflichtend ist Bürger*innen einzubeziehen"],
             correctAnswer: 0,
             explanation: "Lokale Maßnahmen spielen eine entscheidende Rolle im Klimaschutz, da sie unmittelbare Auswirkungen auf die Umwelt haben und das Bewusstsein der Menschen stärken. Durch grüne Stadtgestaltung, Entsiegelung von Flächen und Bürgerbeteiligung sind konkrete Veränderungen möglich, die zur Klimaanpassung und -minderung beitragen."
         },
         {
-            question: "Wie kann das Wohnumfeld für eine klimaangepasste Stadtentwicklung verbessert werden?",
-            options: ["Indem Grünflächen und öffentliche Räume reduziert werden, um mehr Platz für Straßen und Parkplätze zu schaffen", "Durch den verstärkten Einsatz von Asphalt und Beton, um die Stadt widerstandsfähiger gegen Wettereinflüsse zu machen", "Durch die Schaffung barrierefreier Aufenthaltsflächen und Grünflächen, um das Mikroklima zu verbessern und die Stadt lebenswerter zu machen", "Indem man versiegelte Flächen beibehält und keine zusätzlichen Grünflächen schafft, um den Pflegeaufwand für die Stadt zu reduzieren"],
+            question: "Wie kann das Wohnumfeld in Wuppertal besser an Klimaveränderungen angepasst werden?",
+            options: ["Mehr Platz für Straßen und Parkplätze schaffen", "Mehr Asphalt und Beton für Straßen und Flächen einsetzen", "Mehr Grünflächen schaffen", "Weniger Spielplätze anbieten"],
             correctAnswer: 2,
-            explanation: "Die Schaffung und Verbesserung von Grünflächen und öffentlichen Räumen ist ein zentrales Ziel einer klimaangepassten Stadtentwicklung, um das Mikroklima zu regulieren und für mehr Aufenthaltsqualität zu sorgen. Versiegelte Flächen tragen zur Erwärmung der Stadt bei, da sie Wärme speichern und kaum Wasser aufnehmen können."
+            explanation: "Die Schaffung und Verbesserung von Grünflächen und öffentlichen Räumen (wie Spielplätzen) ist ein wichtiges Ziel einer klimaangepassten Stadtentwicklung. Das Mikroklima wird reguliert und es wird eine bessere Aufenthaltsqualität geschaffen."
         },
     ]
 };
+
 
 let currentQuestions = [];
 let currentQuestionIndex = 0;
