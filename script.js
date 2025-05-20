@@ -46,21 +46,21 @@ const quizData = {
             explanation: "Die Leitlinien für gute Bürgerbeteiligung in Wuppertal legen Wert auf eine faire Bürgerbeteiligung. Zu den Kernwerten gehören Zusammenarbeit, Kommunikation, Transparenz, Frühzeitigkeit und Inklusion. Diese Prinzipien sollen sicherstellen, dass möglichst viele Bürger*innen sich einbringen können und ernst genommen werden."
         },
         {
-            question: "Wer hat die Leitlinien für Bürgerbeteiligung entwickelt??",
+            question: "Wer hat die Leitlinien für Bürgerbeteiligung entwickelt?",
             options: ["Ein Team aus Stadtplaner*innen", "Eine Arbeitsgruppe aus Bürger*innen, Politiker*innen und Verwaltungsmitarbeiter*innen", "Der Oberbürgermeister", "Eine externe Beratungsfirma"],
             correctAnswer: 1,
             explanation: "Bürger*innen wurden in die Entwicklung der Leitlinien eingebungen. Die erste Bürgerwerkstatt dazu fand 2016 statt, die Ergebnisse wurden in einer zweiten Bürgerwerkstatt 2017 überarbeitet und verabschiedet."
         },
         {
             question: "Welche zentrale Aufgabe haben die Leitlinien für Bürgerbeteiligung in Wuppertal?",
-            options: ["Sie ersetzen die Entscheidungsbefugnis von Rat und Verwaltung.", "Sie verpflichten alle Bürger*innen zur Teilnahme an Beteiligungsverfahren.", "Sie regeln ausschließlich Verfahren für die Umgestaltung von Flächen.", "Sie geben Orientierung für die Einbeziehung der Bürgerinnen in kommunale Vorhaben."],
+            options: ["Sie ersetzen die Entscheidungsbefugnis von Rat und Verwaltung.", "Sie verpflichten alle Bürger*innen zur Teilnahme an Beteiligungsverfahren.", "Sie regeln ausschließlich Verfahren für die Umgestaltung von Flächen.", "Sie geben Orientierung für die Einbeziehung der Bürger*innen in städtische Vorhaben."],
             correctAnswer: 3,
             explanation: "Die Leitlinien dienen als Rahmen für Bürgerbeteiligungsprozesse in Wuppertal. Sie sollen Einwohner*innen, Politik und Verwaltung Orientierung geben, wie Beteiligungsverfahren gestaltet werden sollen."
         },
         {
             question: "Welche Gruppe hat die Hauptaufgabe die Leitlinien zu prüfen und Verbesserungsvorschläge zu machen?",
             options: ["Der Beirat (eine Gruppe aus Bürger*innen, Politiker*innen und Verwaltungsmitarbeiter*innen)", "Die Stadtplaner*innen in der Verwaltung", "Der Oberbürgermeister", "Gewählte Lokalpolitiker*innen"],
-            correctAnswer: 1,
+            correctAnswer: 0,
             explanation: "Der Beirat für Bürgerbeteiligung setzt sich aus Bürger*innen, Politiker*innen und Verwaltungsmitarbeiter*innen zusammen. Seine Hauptaufgabe ist es, die Einhaltung der Leitlinien zu prüfen und Vorschläge für Verbesserungen zu machen."
         },
     ],
